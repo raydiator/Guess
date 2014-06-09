@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:id="@+id/set_minimum"
+        android:defaultValue="0"
+        android:dialogTitle="Enter New Minimum Value"
+        android:dialogMessage="Warning: Changing the minimum value will start a new game"
+        android:inputType="number"
+        android:key="min"
+        android:maxLength="9"
+        android:title="Change Minimum Value" 
+ 	android:summary = "@+id/current_min"
+        />
+
+    <EditTextPreference
+        android:id="@+id/set_maximum"
+        android:defaultValue="100"
+        android:dialogTitle="Enter New Maximum Value"
+        android:dialogMessage="Warning: Changing the maximum value will start a new game"
+        android:inputType="number"
+        android:key="max"
+        android:maxLength="9"
+        android:title="Change Maximum Value"
+ />
+        
+
+</PreferenceScreen>
